@@ -1,0 +1,11 @@
+@import '../GlobalStyles/GlobalStyles.scss';
+
+input {
+    border: 0;
+    background-color: $white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: $border-radius;
+    color: $black;
+    font-family: $font-family;
+}

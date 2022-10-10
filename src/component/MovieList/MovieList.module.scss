@@ -1,0 +1,15 @@
+@import '../GlobalStyles/GlobalStyles.scss';
+
+.movie-list {
+    :global .swiper-slide {
+        width: 19%;
+
+        @include tablet {
+            width: 30%;
+        }
+
+        @include mobile {
+            width: 40%;
+        }
+    }
+}
